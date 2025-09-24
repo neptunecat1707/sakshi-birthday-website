@@ -27,15 +27,12 @@ jobs:
           node-version: "18"
           cache: npm
       
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-        with:
-          static_site_generator: next
-      
       - name: Install dependencies
         run: npm ci
       
       - name: Build with Next.js
+        env:
+          GITHUB_ACTIONS: true
         run: |
           echo "Building Next.js site..."
           npm run build
