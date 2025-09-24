@@ -7,6 +7,7 @@ import { HeroSection } from '@/components/HeroSection';
 import { ActivitiesSection } from '@/components/ActivitiesSection';
 import { PlaylistSection } from '@/components/PlaylistSection';
 import { WishesSection } from '@/components/WishesSection';
+import { FinalSurpriseSection } from '@/components/FinalSurpriseSection';
 import { Footer } from '@/components/Footer';
 
 export default function Home() {
@@ -50,6 +51,7 @@ export default function Home() {
       <ActivitiesSection />
       <PlaylistSection />
       <WishesSection />
+      <FinalSurpriseSection />
       <Footer />
     </div>
   );
