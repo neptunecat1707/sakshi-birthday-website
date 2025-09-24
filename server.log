@@ -63,3 +63,812 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  GET / 200 in 86ms
  GET / 200 in 70ms
  GET / 200 in 77ms
+ GET / 200 in 71ms
+ GET / 200 in 73ms
+ GET / 200 in 74ms
+ GET / 200 in 71ms
+ GET / 200 in 77ms
+ GET / 200 in 66ms
+ GET / 200 in 71ms
+ GET / 200 in 56ms
+ GET / 200 in 68ms
+ GET / 200 in 66ms
+ GET / 200 in 57ms
+ GET / 200 in 60ms
+ GET / 200 in 82ms
+ GET / 200 in 61ms
+ GET / 200 in 59ms
+ GET / 200 in 73ms
+ GET / 200 in 68ms
+ GET / 200 in 71ms
+ GET / 200 in 68ms
+ GET / 200 in 71ms
+ GET / 200 in 71ms
+ GET / 200 in 70ms
+ GET / 200 in 126ms
+ GET / 200 in 77ms
+ GET / 200 in 61ms
+ GET / 200 in 62ms
+ GET / 200 in 62ms
+ GET / 200 in 56ms
+ GET / 200 in 54ms
+ GET / 200 in 60ms
+ GET / 200 in 54ms
+ GET / 200 in 66ms
+ GET / 200 in 56ms
+ GET / 200 in 57ms
+ GET / 200 in 59ms
+ GET / 200 in 76ms
+ GET / 200 in 61ms
+ GET / 200 in 51ms
+ GET / 200 in 72ms
+ ⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+   ▲ Next.js 15.5.4
+   - Local:        http://localhost:12000
+   - Network:      http://0.0.0.0:12000
+
+ ✓ Starting...
+ ✓ Ready in 1445ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.9s (1480 modules)
+ GET / 200 in 5927ms
+ ✓ Compiled in 1100ms (659 modules)
+ GET / 200 in 79ms
+ GET / 200 in 76ms
+ ✓ Compiled in 251ms (659 modules)
+ GET / 200 in 77ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/server/app-paths-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/server/app-paths-manifest.json',
+  page: '/'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.3s (1788 modules)
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/server/app-paths-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/server/app-paths-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+ GET / 500 in 5825ms
+ GET / 500 in 302ms
+ ⨯ Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+ GET / 500 in 770ms
+ GET / 500 in 294ms
+ ⨯ Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+ GET / 500 in 631ms
+ GET / 500 in 273ms
+ ⨯ Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+ GET / 500 in 587ms
+ GET / 500 in 275ms
+ ⨯ Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+ GET / 500 in 597ms
+ GET / 500 in 282ms
+ ⨯ Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+ GET / 500 in 608ms
+ GET / 500 in 287ms
+ ⨯ Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+ GET / 500 in 605ms
+ GET / 500 in 274ms
+ ⨯ Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+ GET / 500 in 685ms
+ GET / 500 in 373ms
+ ⨯ Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+Error: Cannot find module './586.js'
+Require stack:
+- /workspace/project/sakshi-website/.next/server/webpack-runtime.js
+- /workspace/project/sakshi-website/.next/server/pages/_document.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/require.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/load-components.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/utils.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/options.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/swc/index.js
+- /workspace/project/sakshi-website/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/config.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/next.js
+- /workspace/project/sakshi-website/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/page.js:10:13284)
+    at Object.<anonymous> (.next/server/app/page.js:10:13333) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+ GET / 500 in 598ms
+ GET / 500 in 280ms
+ ✓ Compiled in 145ms (811 modules)
+ ✓ Compiled in 273ms (1788 modules)
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async L (.next/server/app/page.js:1:3485) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async (.next/server/pages/_error.js:8:14071) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async L (.next/server/app/page.js:1:3485) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async (.next/server/pages/_error.js:8:14071) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+ GET / 500 in 962ms
+ GET / 500 in 268ms
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async L (.next/server/app/page.js:1:3485) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async (.next/server/pages/_error.js:8:14071) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async L (.next/server/app/page.js:1:3485) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async (.next/server/pages/_error.js:8:14071) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+ GET / 500 in 890ms
+ GET / 500 in 272ms
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async L (.next/server/app/page.js:1:3485) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async (.next/server/pages/_error.js:8:14071) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async L (.next/server/app/page.js:1:3485) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async (.next/server/pages/_error.js:8:14071) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+ GET / 500 in 1063ms
+ GET / 500 in 274ms
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async L (.next/server/app/page.js:1:3485) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async (.next/server/pages/_error.js:8:14071) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async L (.next/server/app/page.js:1:3485) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async (.next/server/pages/_error.js:8:14071) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+ GET / 500 in 915ms
+ GET / 500 in 285ms
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async L (.next/server/app/page.js:1:3485) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async (.next/server/pages/_error.js:8:14071) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async L (.next/server/app/page.js:1:3485) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async (.next/server/pages/_error.js:8:14071) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+ GET / 500 in 951ms
+ GET / 500 in 275ms
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async L (.next/server/app/page.js:1:3485) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async (.next/server/pages/_error.js:8:14071) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async L (.next/server/app/page.js:1:3485) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'
+    at async (.next/server/pages/_error.js:8:14071) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/project/sakshi-website/.next/routes-manifest.json'] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/project/sakshi-website/.next/routes-manifest.json'
+}
+ GET / 500 in 1201ms
+ GET / 500 in 335ms
+ ⨯ [TypeError: a[d] is not a function] { digest: '2029092853' }
+[TypeError: a[d] is not a function]
+ ⨯ [TypeError: a[d] is not a function]
+ ⨯ [TypeError: a[d] is not a function] { page: '/' }
+ GET / 500 in 1023ms
+ ⨯ [TypeError: a[d] is not a function] { digest: '2029092853' }
+[TypeError: a[d] is not a function]
+ ⨯ [TypeError: a[d] is not a function]
+ ⨯ [TypeError: a[d] is not a function] { page: '/' }
+ GET / 500 in 893ms
+ ⨯ [TypeError: a[d] is not a function] { digest: '2029092853' }
+[TypeError: a[d] is not a function]
+ ⨯ [TypeError: a[d] is not a function]
+ ⨯ [TypeError: a[d] is not a function] { page: '/' }
+ GET / 500 in 797ms
+ ⨯ [TypeError: a[d] is not a function] { digest: '2029092853' }
+[TypeError: a[d] is not a function]
+ ⨯ [TypeError: a[d] is not a function]
+ ⨯ [TypeError: a[d] is not a function] { page: '/' }
+ GET / 500 in 812ms
+ ⨯ [TypeError: a[d] is not a function] { digest: '2029092853' }
+[TypeError: a[d] is not a function]
+ ⨯ [TypeError: a[d] is not a function]
+ ⨯ [TypeError: a[d] is not a function] { page: '/' }
+ GET / 500 in 830ms
