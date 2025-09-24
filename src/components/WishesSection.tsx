@@ -88,7 +88,7 @@ export function WishesSection() {
   };
 
   return (
-    <section className="py-20 px-4">
+    <section className="py-20 px-4 bg-gradient-to-br from-zinc-900 to-zinc-800">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -97,10 +97,10 @@ export function WishesSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Get Wish&apos;d
           </h2>
-          <p className="text-xl text-gray-600">
+          <p className="text-xl text-zinc-300">
             Some things we could&apos;ve told you on WhatsApp but it&apos;s cooler this way
           </p>
         </motion.div>
@@ -113,14 +113,14 @@ export function WishesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-zinc-800 border border-zinc-700 rounded-2xl p-6 shadow-lg hover:shadow-xl hover:border-zinc-600 transition-all duration-300"
             >
               {slot.wish ? (
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2">
                       <Heart className="w-5 h-5 text-pink-500" />
-                      <span className="font-semibold text-gray-800">
+                      <span className="font-semibold text-white">
                         {slot.wish.recipientName}
                       </span>
                     </div>
@@ -155,7 +155,7 @@ export function WishesSection() {
                     {slot.wish.message}
                   </p>
                   
-                  <div className="flex items-center gap-2 text-sm text-gray-500">
+                  <div className="flex items-center gap-2 text-sm text-zinc-400">
                     <User className="w-4 h-4" />
                     <span>From: {slot.wish.authorName}</span>
                   </div>
@@ -163,12 +163,12 @@ export function WishesSection() {
               ) : (
                 <div className="text-center py-8">
                   <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gray-100 flex items-center justify-center">
-                    <Plus className="w-8 h-8 text-gray-400" />
+                    <Plus className="w-8 h-8 text-zinc-500" />
                   </div>
-                  <h3 className="font-semibold text-gray-800 mb-2">
+                  <h3 className="font-semibold text-white mb-2">
                     {slot.recipientName}
                   </h3>
-                  <p className="text-gray-500 text-sm mb-4">
+                  <p className="text-zinc-400 text-sm mb-4">
                     No wish yet
                   </p>
                   <button
@@ -190,7 +190,7 @@ export function WishesSection() {
           viewport={{ once: true }}
           className="text-center mt-16"
         >
-          <p className="text-lg text-gray-600">
+          <p className="text-lg text-zinc-300">
             Since you&apos;ve finished reading all this, you can now come back to WhatsApp and thank us. 
             <br />
             <span className="font-semibold text-purple-600">Happy Birthday Sakshi! 🎉</span>

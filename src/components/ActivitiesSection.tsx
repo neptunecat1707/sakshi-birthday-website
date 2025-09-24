@@ -43,7 +43,7 @@ const activities = [
 
 export function ActivitiesSection() {
   return (
-    <section className="py-20 px-4">
+    <section className="py-20 px-4 bg-gradient-to-br from-zinc-800 to-zinc-900">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -52,10 +52,10 @@ export function ActivitiesSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Turning 22 can be amazing...
           </h2>
-          <p className="text-xl text-gray-600">
+          <p className="text-xl text-zinc-300">
             So here are some things you can do to make it even better
           </p>
         </motion.div>
@@ -69,17 +69,17 @@ export function ActivitiesSection() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
               whileHover={{ scale: 1.05, y: -10 }}
-              className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300"
+              className="bg-zinc-800 border border-zinc-700 rounded-2xl p-6 shadow-lg hover:shadow-2xl hover:border-zinc-600 transition-all duration-300"
             >
-              <div className={`w-16 h-16 rounded-full bg-gradient-to-r ${activity.color} flex items-center justify-center mb-4 mx-auto`}>
+              <div className={`w-16 h-16 rounded-full bg-gradient-to-r ${activity.color} flex items-center justify-center mb-4 mx-auto shadow-lg`}>
                 <span className="text-2xl">{activity.emoji}</span>
               </div>
               
-              <h3 className="text-xl font-bold text-gray-800 mb-3 text-center">
+              <h3 className="text-xl font-bold text-white mb-3 text-center">
                 {activity.title}
               </h3>
               
-              <p className="text-gray-600 text-center leading-relaxed">
+              <p className="text-zinc-300 text-center leading-relaxed">
                 {activity.description}
               </p>
             </motion.div>
