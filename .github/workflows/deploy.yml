@@ -36,10 +36,18 @@ jobs:
         run: npm ci
       
       - name: Build with Next.js
-        run: npm run build
-      
-      - name: List build output
-        run: ls -la out/
+        run: |
+          echo "Building Next.js site..."
+          npm run build
+          echo "Build completed. Checking output..."
+          ls -la
+          if [ -d "out" ]; then
+            echo "out directory exists:"
+            ls -la out/
+          else
+            echo "out directory does not exist!"
+            exit 1
+          fi
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

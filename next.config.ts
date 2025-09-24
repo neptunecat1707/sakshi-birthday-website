@@ -18,8 +18,8 @@ const nextConfig: NextConfig = {
   // Configure for GitHub Pages deployment
   output: 'export',
   trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/sakshi-birthday-website' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/sakshi-birthday-website/' : '',
+  basePath: process.env.GITHUB_ACTIONS ? '/sakshi-birthday-website' : '',
+  assetPrefix: process.env.GITHUB_ACTIONS ? '/sakshi-birthday-website/' : '',
 };
 
 export default nextConfig;
