@@ -66,11 +66,28 @@ export function HeroSection() {
             transition={{ delay: 1.4, duration: 0.5 }}
             className="pt-8"
           >
-            <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300 mb-6">
               <span className="text-lg">🎊</span>
               <span>Welcome to the celebration!</span>
               <span className="text-lg">🎊</span>
             </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.8, duration: 0.6 }}
+            className="pt-4"
+          >
+            <button
+              onClick={() => {
+                const wishesSection = document.getElementById('wishes-section');
+                wishesSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
+              className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent hover:from-pink-400 hover:via-purple-400 hover:to-pink-400 transition-all duration-300 cursor-pointer hover:scale-105 transform"
+            >
+              Continue
+            </button>
           </motion.div>
         </div>
       </div>

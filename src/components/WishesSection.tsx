@@ -88,7 +88,7 @@ export function WishesSection() {
   };
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-zinc-900 to-zinc-800">
+    <section id="wishes-section" className="py-20 px-4 bg-gradient-to-br from-zinc-900 to-zinc-800">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
